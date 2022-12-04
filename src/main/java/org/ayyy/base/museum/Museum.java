@@ -1,5 +1,8 @@
 package org.ayyy.base.museum;
 
+import org.ayyy.util.CallStackLogInfo;
+import org.ayyy.util.CallStackLogger;
+
 /**
  * @Author: 杨严
  * @Date: 2022/12/04/2:20 PM
@@ -9,15 +12,21 @@ package org.ayyy.base.museum;
 public enum Museum {
     // 用枚举类型实现单例模式
     INSTANCE;
-    public static Museum getInstance(){
+
+    public static Museum getInstance() {
+        CallStackLogger.log(
+                new CallStackLogInfo(
+                        "Museum",
+                        "getInstance",
+                        String.valueOf(INSTANCE.hashCode()),
+                        "获取博物馆单例")
+        );
         return INSTANCE;
     }
 
-    public void say(){
+    public void say() {
         System.out.println("museum say!");
     }
-
-
 
 
 }

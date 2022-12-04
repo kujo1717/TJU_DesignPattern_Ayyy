@@ -1,6 +1,7 @@
 package org.ayyy.singleton;
 
 import org.ayyy.base.museum.Museum;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -14,7 +15,7 @@ import static org.junit.jupiter.api.Assertions.assertSame;
 public class SingletonTest {
     @BeforeEach
     void setUp(){
-        System.out.println("test up");
+        System.out.println("SingletonTest up");
     }
 
 
@@ -24,5 +25,10 @@ public class SingletonTest {
         Museum museum2=Museum.getInstance();
         assertSame(museum1, museum2);
         System.out.println("Museum is " + museum1.toString());
+    }
+    @AfterEach
+    void end(){
+        System.out.println("SingletonTest done");
+
     }
 }
