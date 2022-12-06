@@ -29,6 +29,5 @@ public class SingletonTest {
     @AfterEach
     void end(){
         System.out.println("SingletonTest done");
-
     }
 }

@@ -34,16 +34,18 @@ public class Main {
         TestPlan testPlan = launcher.discover(allTestRequest);
         Set<TestIdentifier> testIdentifierSet = testPlan.getChildren("[engine:junit-jupiter]");
         List<TestIdentifier> testIdentifierList=new ArrayList<>(testIdentifierSet);
-        int i=0;
-        for (TestIdentifier test:testIdentifierList){
-            System.out.printf("%2d: %s\n", i, test.getDisplayName());
-            i+=1;
-        }
+
 
 
         Scanner scanner = new Scanner(System.in);
         while (true) {
             System.out.println("输入一个数字选择特定测试， -1退出");
+            int i=0;
+            for (TestIdentifier test:testIdentifierList){
+                System.out.printf("%2d: %s\n", i, test.getDisplayName());
+                i+=1;
+            }
+
             int choice = scanner.nextInt();
             if (choice == -1) {
                 break;
