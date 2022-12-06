@@ -42,6 +42,16 @@ Tongji University 2022, Software School, Design Pattern Course Dessign,Team Ayyy
 * 必须有文字说明，解释该package运用了什么设计模式
 * 每个函数必须有注释
 
+## @Data注解
+
+引入lombok依赖，可使用@Data注解减少工作量
+
+案例如下
+
+![image-20221206145621160](README.assets/image-20221206145621160.png)
+
+在类定义上方添加@Data注解，可为每个属性自动生成对应的getter与setter，减少无意义代码。
+
 
 
 
