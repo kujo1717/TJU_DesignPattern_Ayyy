@@ -1,1 +1,12 @@
+org\ayyy\bridge\BridgeTest.class
+org\ayyy\composite\Composite.class
+org\ayyy\fliter\FliterTest.class
+org\ayyy\mediator\MediatorTest.class
+org\ayyy\chainofresponsibility\ChainOfResponsibilityTest.class
+org\ayyy\templatemethod\TemplateMethodTest.class
+org\ayyy\iterator\IteratorTest.class
+org\ayyy\MVC\MVCTest.class
+org\ayyy\proxy\ProxyTest.class
 org\ayyy\abstractfactory\AbstractFactoryTest.class
+org\ayyy\FrontController\FrontControllerTest.class
+org\ayyy\flyweight\FlyWeightTest.class
