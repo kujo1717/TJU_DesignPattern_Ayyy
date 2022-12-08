@@ -32,7 +32,6 @@ Tongji University 2022, Software School, Design Pattern Course Dessign,Team Ayyy
 
 2.新建包中，新建测试类，驼峰命名，**名字必须以Test结尾**，否则Main无法识别
 
-3.测试类中应当包含 Assert 语句
 
 
 
