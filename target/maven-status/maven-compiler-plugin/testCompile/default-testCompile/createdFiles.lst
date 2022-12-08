@@ -1,8 +1,12 @@
 org\ayyy\bridge\BridgeTest.class
+org\ayyy\state\StateTest.class
 org\ayyy\composite\Composite.class
 org\ayyy\fliter\FliterTest.class
 org\ayyy\mediator\MediatorTest.class
+org\ayyy\objectpool\ObjectPoolTest$1.class
+org\ayyy\objectpool\ObjectPoolTest.class
 org\ayyy\chainofresponsibility\ChainOfResponsibilityTest.class
+org\ayyy\strategy\StrategyTest.class
 org\ayyy\templatemethod\TemplateMethodTest.class
 org\ayyy\iterator\IteratorTest.class
 org\ayyy\MVC\MVCTest.class

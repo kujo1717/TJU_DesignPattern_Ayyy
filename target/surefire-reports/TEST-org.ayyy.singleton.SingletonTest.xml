@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CN"/>
     <property name="sun.boot.library.path" value="D:\ProgramData\IDEA\IntelliJ IDEA 2019.3.3\jbr\bin"/>
-    <property name="sun.java.command" value="C:\Users\Lv\AppData\Local\Temp\surefire18382354476604171592\surefirebooter5120985471360446100.jar C:\Users\Lv\AppData\Local\Temp\surefire18382354476604171592 2022-12-07T22-44-42_448-jvmRun1 surefire16480626527020743074tmp surefire_012900497832806276988tmp"/>
+    <property name="sun.java.command" value="C:\Users\Lv\AppData\Local\Temp\surefire15278588821699663680\surefirebooter5763761064265443455.jar C:\Users\Lv\AppData\Local\Temp\surefire15278588821699663680 2022-12-08T09-56-34_109-jvmRun1 surefire16780183331122917097tmp surefire_07365637715717333726tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\ProgramData\IDEA\IdeaProjects\TJU_DesignPattern_Ayyy\target\test-classes;D:\ProgramData\IDEA\IdeaProjects\TJU_DesignPattern_Ayyy\target\classes;C:\Users\Lv\.m2\repository\org\junit\platform\junit-platform-launcher\1.7.0\junit-platform-launcher-1.7.0.jar;C:\Users\Lv\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Lv\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\Lv\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Lv\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Lv\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Lv\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Lv\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\Lv\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\Lv\.m2\repository\org\projectlombok\lombok\1.18.6\lombok-1.18.6.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Lv\AppData\Local\Temp\surefire18382354476604171592\surefirebooter5120985471360446100.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lv\AppData\Local\Temp\surefire15278588821699663680\surefirebooter5763761064265443455.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.5+10-b520.38"/>
