@@ -1,5 +1,4 @@
 package org.ayyy.base.memento.controller;
-
 import org.ayyy.base.memento.entity.Activity;
 
 /**
@@ -11,7 +10,7 @@ import org.ayyy.base.memento.entity.Activity;
  */
 public class Record {
 
-    public Activity activity;
+    public Activity activity=new Activity();
     /**
      *创建一个活动的记录
      */
@@ -27,5 +26,11 @@ public class Record {
      */
     public void SeeLastActivity() {
         System.out.println("[恢复"+activity.getStartTime()+"开始的活动]");
+    }
+
+    public static void main(String[] args) {
+        Record record=new Record();
+        record.MakeRecord("2020-12-12","2020-12-13","12","测试");
+        record.SeeLastActivity();
     }
 }
