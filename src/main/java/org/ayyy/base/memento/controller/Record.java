@@ -1,5 +1,7 @@
 package org.ayyy.base.memento.controller;
 import org.ayyy.base.memento.entity.Activity;
+import org.ayyy.util.CallStackLogInfo;
+import org.ayyy.util.CallStackLogger;
 
 /**
  * 对活动实体的操作控制
@@ -10,27 +12,29 @@ import org.ayyy.base.memento.entity.Activity;
  */
 public class Record {
 
-    public Activity activity=new Activity();
+    public Activity activity=new Activity("2022-12-10","2022-12-11","12","举办藏品展览");
     /**
      *创建一个活动的记录
      */
-    public void MakeRecord(String startTime,String endTime,String activityId,String content) {
-        activity.setActivityId(activityId);
-        activity.setContent(content);
-        activity.setEndTime(endTime);
-        activity.setStartTime(startTime);
+    public void MakeRecord() {
+        CallStackLogger.log(new CallStackLogInfo(
+                getClass().getName(),
+                "MakeRecord",
+                String.valueOf(System.identityHashCode(this)),
+                "活动结束，记录活动内容"
+        ));
     }
 
     /**
      *恢复一个活动的记录
      */
     public void SeeLastActivity() {
-        System.out.println("[恢复"+activity.getStartTime()+"开始的活动]");
+        CallStackLogger.log(new CallStackLogInfo(
+                getClass().getName(),
+                "seeLastActivity",
+                String.valueOf(System.identityHashCode(this)),
+                "恢复这个活动"
+        ));
     }
 
-    public static void main(String[] args) {
-        Record record=new Record();
-        record.MakeRecord("2020-12-12","2020-12-13","12","测试");
-        record.SeeLastActivity();
-    }
 }

@@ -1,5 +1,8 @@
 package org.ayyy.base.adapter;
 
+import org.ayyy.util.CallStackLogInfo;
+import org.ayyy.util.CallStackLogger;
+
 /**
  * 适配器模式，改变电压值
  *
@@ -10,10 +13,12 @@ package org.ayyy.base.adapter;
 public class Adapter {
     public void changPower(){
         InputPower inputPower=new InputPower();
-        inputPower.setCurrent_power("220v");
+        CallStackLogger.log(new CallStackLogInfo(
+                getClass().getName(),
+                "changePower",
+                String.valueOf(System.identityHashCode(this)),
+                "使用适配器进行适配"
+        ));
         OutputPower outputPower=new OutputPower();
-        System.out.println("当前电压为"+inputPower.getCurrent_power());
-        outputPower.setCurrent_power("10v");
-        System.out.println("经过适配后的电压为"+outputPower.getCurrent_power());
     }
 }
