@@ -5,8 +5,8 @@ package org.ayyy.base.exhibition.composite;
  * @Date 2022/12/7
  * @JDKVersion 17.0.4
  */
-public class ExhibitionComponentItem extends ExhibitionComponent {
-    public ExhibitionComponentItem(String exhibitionName) {
+public class ExhibitionItem extends ExhibitionComponent {
+    public ExhibitionItem(String exhibitionName) {
         super(exhibitionName);
     }
 

@@ -12,7 +12,7 @@ public abstract class Department {
     // 部门名称
     protected String departmentName;
     // 下一个处理申请的部门
-    Department nextDepartment;
+    protected Department nextDepartment;
 
     public Department(String departmentName) {
         this.departmentName = departmentName;

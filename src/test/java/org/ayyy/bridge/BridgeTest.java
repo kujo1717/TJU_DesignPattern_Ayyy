@@ -20,6 +20,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class BridgeTest {
     @Test
     void test(){
+        System.out.println("桥接模式测试开始...");
         // 选择金属材质
         ShowcaseTexture showcaseTexture = new MetalTexture();
         // 选择独立式的类型

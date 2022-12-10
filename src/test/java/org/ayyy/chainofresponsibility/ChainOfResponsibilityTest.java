@@ -17,6 +17,7 @@ import java.util.ArrayList;
 public class ChainOfResponsibilityTest {
     @Test
     void test(){
+        System.out.println("责任链模式测试开始...");
         // 创建一个一级藏品档案审批请求，编号为1111
         RecordApplication recordApplication = new RecordApplication(1111, 1);
         // 创建一个二级藏品档案审批请求，编号为2222
