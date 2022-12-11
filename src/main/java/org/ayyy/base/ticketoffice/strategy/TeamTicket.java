@@ -11,8 +11,8 @@ import org.ayyy.util.CallStackLogInfo;
 import org.ayyy.util.CallStackLogger;
 
 public class TeamTicket implements TicketStrategy{
-    @Override
-    public void buy(String visitorName){
+        @Override
+        public void buy(String visitorName){
         String msg = visitorName + "购买了团体票";
         System.out.println(msg);
 
